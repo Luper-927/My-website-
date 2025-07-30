@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Vibely Test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vibely</title>
 </head>
 <body>
   <h1>Vibely is live!</h1>
-  <p>Welcome to my TikTok-style web app.</p>
+  <p>This is your first web page. More coming soon...</p>
 </body>
 </html>
