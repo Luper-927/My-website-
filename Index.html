@@ -1,63 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vibely - Explore & Chat</title>
+  <meta charset="UTF-8">
+  <title>Vibely - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      margin: 0;
+      background: #121212;
+      color: #fff;
       font-family: Arial, sans-serif;
-      background: #000;
-      color: white;
-      overflow-x: hidden;
-    }
-    header {
       text-align: center;
-      font-size: 2em;
-      padding: 20px;
-      background: #111;
+      padding: 100px 20px;
     }
-    .video-feed {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
     }
-    video {
-      width: 90%;
-      max-width: 400px;
-      margin: 20px auto;
-      border-radius: 15px;
-    }
-    .buttons {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .buttons button {
-      padding: 10px 15px;
-      font-size: 14px;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      background: #ff3c78;
-      color: white;
+    p {
+      font-size: 20px;
     }
   </style>
 </head>
 <body>
-  <header>🔥 Vibely</header>
-  <div class="video-feed">
-    <video src="https://www.w3schools.com/html/mov_bbb.mp4" autoplay loop muted></video>
-    <video src="https://www.w3schools.com/html/movie.mp4" autoplay loop muted></video>
-  </div>
-  <div class="buttons">
-    <button onclick="alert('Marketplace powered by ChatGPT coming soon!')">🛒 Marketplace</button>
-    <button onclick="alert('Chat system coming soon!')">💬 Chat</button>
-  </div>
+  <h1>Welcome to Vibely</h1>
+  <p>Your TikTok-style social app with chat and marketplace features.</p>
 </body>
 </html>
